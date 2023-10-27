@@ -1,0 +1,192 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family:Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.mainpage{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7) , rgba(0, 0, 0, 0.7)) , url(https://static.seekingalpha.com/uploads/2018/8/27/48200183-15353923297627435_origin.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 130px;
+}
+.logo{
+    width: 250px;
+}
+
+.nav-item{
+    display: flex;
+    gap: 20px;
+}
+.lang-dropdown{
+    padding: 5px;
+}
+.lang-list{
+    border-radius: 3px;
+    background: transparent;
+    font-size: 15px;
+    padding: 5px 15px;
+    color: white;
+    border: 1px solid white;
+    font-weight: bold;
+}
+.signin-button{
+    background-color: red;
+    color: white;
+    border-radius: 3px;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    height: 35px;
+    width: 100px;
+}
+.mainpage-content{
+    color: white;
+    position: absolute;
+    top: 45%;
+    left: 13%;
+    text-align: center;
+    gap: 10px;
+}
+.main-heading{
+    font-weight: 800;
+    font-size: 45px;
+}
+.main-subheading{
+    padding: 20px;
+    font-size: 25px;
+    font-weight: 400;
+}
+.main-content{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 300;
+}
+.email-input{
+    background: transparent;
+    border-radius: 3px;
+    width:35%;
+    height: 50px;
+    border: 1px solid white;
+    padding: 10px;
+    margin: 10px;
+}
+.get-started-button{
+    background-color: red;
+    border-radius: 3px;
+    height: 50px;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 5px 25px;
+}
+
+.section1 , .section2 , .section3, .section4{
+    width: 100%;
+    min-height: 500px;
+    background-color: black;
+    border-top: 10px solid rgb(56, 55, 55);
+    display: grid;
+    grid-template-columns: 50% 40%;
+    text-align: left;
+    color: white;
+}
+.section1-image , .section3-image{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    height: 350px;
+    margin-top: 50px;
+}
+.content1 , .content3 {
+    color: white;
+    grid-row: 1/2;
+    grid-column: 1/2;
+    padding-top: 100px;
+    padding-left: 130px;
+    margin-top: 50px;
+}
+.section1-content-heading ,.section2-content-heading , .section3-content-heading , .section4-content-heading {
+    font-size: 45px;
+    font-weight: 900;
+}
+.section1-content , .section2-content , .section3-content , .section4-content{
+    font-size: 25px;
+    margin-top: 10px;
+    font-weight: 300;
+}
+.section2-image , .section4-image{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    height: 350px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+.content2 , .content4 {
+    color: white;
+    grid-row: 1/2;
+    grid-column: 2/3;
+    padding-top: 80px;
+    margin-top: 30px;
+}
+.section5 , .section6{
+    width: 100%;
+    min-height: 500px;
+    background-color: black;
+    border-top: 10px solid rgb(56, 55, 55);
+    color: white;
+}
+.content5{
+    margin-top: 50px;
+}
+.section5-content-heading{
+    display: flex;
+    font-size: 50px;
+    font-weight: 900;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.ques{
+    background-color: rgb(56, 55, 55);
+    padding: 25px 20px ;
+    margin-top: 5px;
+    font-size: 25px;
+    width: 75%;
+    justify-content:center;
+    align-content: center;
+    margin-left: 12.5%;
+}
+.content5-text{
+    margin-top: 40px;
+}
+#plus{
+    float: right;
+
+}
+.section6{
+    color: rgb(191, 191, 191) ;
+    padding: 100px 150px;
+    line-height: 40px;
+}
+.list{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 40px;
+}
+.list ul{
+    list-style-type: none;
+    text-decoration: underline;
+    
+}
